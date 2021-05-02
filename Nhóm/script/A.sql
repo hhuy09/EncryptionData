@@ -9,9 +9,9 @@ NGAY: 28/04/2021
 ----------------------------------------------------------*/ 
 USE [master]
 
-IF EXISTS(SELECT * FROM sys.databases WHERE name = 'QLSV')
+IF EXISTS(SELECT * FROM sys.databases WHERE name = 'QLSVNhom')
 BEGIN
-	DROP DATABASE QLSV
+	DROP DATABASE QLSVNhom
 END;
 
-CREATE DATABASE QLSV;
+CREATE DATABASE QLSVNhom;

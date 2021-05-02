@@ -7,7 +7,7 @@ HO TEN CAC THANH VIEN NHOM:
 LAB: 03 - NHOM 
 NGAY: 28/04/2021
 ----------------------------------------------------------*/ 
-USE [QLSV];
+USE [QLSVNhom];
 
 CREATE TABLE SINHVIEN
 (
