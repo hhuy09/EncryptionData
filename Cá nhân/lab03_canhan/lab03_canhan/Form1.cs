@@ -50,7 +50,8 @@ namespace lab03_canhan
             catch(SqlException error)
             {
                 string errorStr = error.ToString();
-                string[] arrStr = errorStr.Split('\n');
+                string[] arrStr0 = errorStr.Split(':');
+                string[] arrStr = arrStr0[1].Split('\n');
                 MessageBox.Show(arrStr[0].ToString());
             }
         }
