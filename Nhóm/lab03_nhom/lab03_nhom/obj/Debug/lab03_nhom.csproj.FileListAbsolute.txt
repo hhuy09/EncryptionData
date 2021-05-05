@@ -2,7 +2,6 @@ F:\HỌC KỲ 6\DATABASE SECURITY\LAB03\Nhóm\lab03_nhom\lab03_nhom\bin\Debug\la
 F:\HỌC KỲ 6\DATABASE SECURITY\LAB03\Nhóm\lab03_nhom\lab03_nhom\bin\Debug\lab03_nhom.exe
 F:\HỌC KỲ 6\DATABASE SECURITY\LAB03\Nhóm\lab03_nhom\lab03_nhom\bin\Debug\lab03_nhom.pdb
 F:\HỌC KỲ 6\DATABASE SECURITY\LAB03\Nhóm\lab03_nhom\lab03_nhom\obj\Debug\lab03_nhom.csprojAssemblyReference.cache
-F:\HỌC KỲ 6\DATABASE SECURITY\LAB03\Nhóm\lab03_nhom\lab03_nhom\obj\Debug\lab03_nhom.Forn1.resources
 F:\HỌC KỲ 6\DATABASE SECURITY\LAB03\Nhóm\lab03_nhom\lab03_nhom\obj\Debug\lab03_nhom.Form2.resources
 F:\HỌC KỲ 6\DATABASE SECURITY\LAB03\Nhóm\lab03_nhom\lab03_nhom\obj\Debug\lab03_nhom.Properties.Resources.resources
 F:\HỌC KỲ 6\DATABASE SECURITY\LAB03\Nhóm\lab03_nhom\lab03_nhom\obj\Debug\lab03_nhom.csproj.GenerateResource.cache
@@ -11,3 +10,15 @@ F:\HỌC KỲ 6\DATABASE SECURITY\LAB03\Nhóm\lab03_nhom\lab03_nhom\obj\Debug\la
 F:\HỌC KỲ 6\DATABASE SECURITY\LAB03\Nhóm\lab03_nhom\lab03_nhom\obj\Debug\lab03_nhom.pdb
 F:\HỌC KỲ 6\DATABASE SECURITY\LAB03\Nhóm\lab03_nhom\lab03_nhom\obj\Debug\lab03_nhom.Form3.resources
 F:\HỌC KỲ 6\DATABASE SECURITY\LAB03\Nhóm\lab03_nhom\lab03_nhom\obj\Debug\lab03_nhom.Form4.resources
+F:\HỌC KỲ 6\DATABASE SECURITY\LAB03\Nhóm\lab03_nhom\lab03_nhom\obj\Debug\lab03_nhom.Form5.resources
+F:\HỌC KỲ 6\DATABASE SECURITY\LAB03\Nhóm\lab03_nhom\lab03_nhom\obj\Debug\lab03_nhom.Form6.resources
+F:\HỌC KỲ 6\DATABASE SECURITY\LAB03\Nhóm\lab03_nhom\lab03_nhom\obj\Debug\lab03_nhom.Form7.resources
+F:\HỌC KỲ 6\DATABASE SECURITY\LAB03\Nhóm\lab03_nhom\lab03_nhom\obj\Debug\lab03_nhom.Form8.resources
+F:\HỌC KỲ 6\DATABASE SECURITY\LAB03\Nhóm\lab03_nhom\lab03_nhom\obj\Debug\lab03_nhom.Form1.resources
+F:\HỌC KỲ 6\DATABASE SECURITY\LAB03\Nhóm\lab03_nhom\lab03_nhom\obj\Debug\lab03_nhom.Form9.resources
+F:\HỌC KỲ 6\DATABASE SECURITY\LAB03\Nhóm\lab03_nhom\lab03_nhom\obj\Debug\lab03_nhom.Form10.resources
+F:\HỌC KỲ 6\DATABASE SECURITY\LAB03\Nhóm\lab03_nhom\lab03_nhom\obj\Debug\lab03_nhom.Form11.resources
+F:\HỌC KỲ 6\DATABASE SECURITY\LAB03\Nhóm\lab03_nhom\lab03_nhom\obj\Debug\lab03_nhom.Form12.resources
+F:\HỌC KỲ 6\DATABASE SECURITY\LAB03\Nhóm\lab03_nhom\lab03_nhom\obj\Debug\lab03_nhom.Form13.resources
+F:\HỌC KỲ 6\DATABASE SECURITY\LAB03\Nhóm\lab03_nhom\lab03_nhom\obj\Debug\lab03_nhom.Form14.resources
+F:\HỌC KỲ 6\DATABASE SECURITY\LAB03\Nhóm\lab03_nhom\lab03_nhom\obj\Debug\lab03_nhom.Form15.resources

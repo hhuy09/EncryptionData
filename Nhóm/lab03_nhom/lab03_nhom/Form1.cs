@@ -12,11 +12,11 @@ using System.Data.SqlClient;
 
 namespace lab03_nhom
 {
-    public partial class Forn1 : Form
+    public partial class Form1 : Form
     {
         string connectString;
         SqlConnection con;
-        public Forn1()
+        public Form1()
         {
             InitializeComponent();
         }
@@ -44,12 +44,12 @@ namespace lab03_nhom
                 SqlCommand cmd = new SqlCommand(sqlexeclogin, con);
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("Đăng nhập thành công");
-                Form2 f2 = new Form2();
-                f2.connectString = connectString;
-                f2.tenDN = username;
-                f2.pass = textBox2.Text;
+                Form5 f5 = new Form5();
+                f5.connectString = connectString;
+                f5.tenDN = username;
+                f5.pass = textBox2.Text;
                 this.Hide();
-                f2.Show();
+                f5.Show();
 
             }
             catch (SqlException error)
@@ -58,7 +58,9 @@ namespace lab03_nhom
                 string[] arrStr0 = errorStr.Split(':');
                 string[] arrStr = arrStr0[1].Split('\n');
                 MessageBox.Show(arrStr[0].ToString());
+                
             }
+            textBox2.Text = null;
         }
     }
 }

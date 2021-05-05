@@ -16,7 +16,7 @@ namespace lab03_nhom
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Forn1());
+            Application.Run(new Form1());
         }
     }
 }

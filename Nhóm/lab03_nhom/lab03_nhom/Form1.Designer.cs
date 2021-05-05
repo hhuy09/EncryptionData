@@ -1,7 +1,7 @@
 ﻿
 namespace lab03_nhom
 {
-    partial class Forn1
+    partial class Form1
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace lab03_nhom
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Forn1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -102,13 +102,13 @@ namespace lab03_nhom
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(78, 19);
+            this.label3.Location = new System.Drawing.Point(120, 21);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(236, 19);
+            this.label3.Size = new System.Drawing.Size(159, 19);
             this.label3.TabIndex = 12;
-            this.label3.Text = "HỆ THỐNG QUẢN LÝ SINH VIÊN";
+            this.label3.Text = "HỆ THỐNG QUẢN LÝ ";
             // 
-            // Forn1
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -122,7 +122,7 @@ namespace lab03_nhom
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Forn1";
+            this.Name = "Form1";
             this.Text = "Đăng nhập";
             this.Load += new System.EventHandler(this.Login_Load);
             this.ResumeLayout(false);
