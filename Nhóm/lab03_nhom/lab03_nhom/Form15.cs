@@ -45,10 +45,10 @@ namespace lab03_nhom
             {
                 string sqlexec1 = "EXEC SP_DEL_DKHP '" + mssv + "', '" + mahp + "'";
                 SqlCommand cmd1 = new SqlCommand(sqlexec1, con);
-                cmd1.ExecuteNonQuery();
+                cmd1.ExecuteNonQuery();              
+                MessageBox.Show("Xóa DKHP thành công.");
                 con.Close();
                 this.Close();
-                MessageBox.Show("Xóa DKHP thành công.");
             }
             catch(SqlException error)
             {

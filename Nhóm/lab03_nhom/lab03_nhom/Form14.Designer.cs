@@ -29,6 +29,7 @@ namespace lab03_nhom
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form14));
             this.label13 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -139,6 +140,27 @@ namespace lab03_nhom
             // 
             this.comboBox1.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Tư Tưởng Hồ Chí Minh",
+            "Mác Lê Nin",
+            "Nhập Môn Lập Trình",
+            "Cấu Trúc Dữ Liệu Và Giải Thuật",
+            "Lập Trình Hướng Đối Tượng",
+            "Kĩ Thuật Lập Trình",
+            "Mạng Máy Tính",
+            "Cơ Sỡ Dữ Liệu",
+            "Hệ Điều Hành",
+            "Kiến Trúc Máy Tính Và Hợp Ngữ",
+            "Bảo Mật Cơ Sỡ Dữ Liệu",
+            "Phương Pháp Tính",
+            "Cộng Trừ Toán Học",
+            "Vi Tích Phân 1B",
+            "Vi Tích Phân 2B",
+            "Đại Số Tuyến Tính",
+            "Xác Xuất Thống Kê",
+            "Toán Học Tổ Hợp",
+            "Toán Học Rời Rạc",
+            "Lý Thuyết Số"});
             this.comboBox1.Location = new System.Drawing.Point(189, 111);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(294, 27);
@@ -154,6 +176,7 @@ namespace lab03_nhom
             this.Controls.Add(this.label12);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.groupBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form14";
             this.Text = "Thêm đăng ký học phần";
             this.Load += new System.EventHandler(this.Form14_Load);

@@ -50,7 +50,7 @@ namespace lab03_nhom
             label5.Text = count.ToString();
 
             mssv = dataGridView1.Rows[0].Cells[0].Value.ToString();
-            mahp = dataGridView1.Rows[2].Cells[0].Value.ToString();
+            mahp = dataGridView1.Rows[0].Cells[2].Value.ToString();
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -74,7 +74,9 @@ namespace lab03_nhom
 
             int count = dataGridView1.Rows.Count - 1;
             label5.Text = count.ToString();
-           
+
+            mssv = dataGridView1.Rows[0].Cells[0].Value.ToString();
+            mahp = dataGridView1.Rows[0].Cells[2].Value.ToString();
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -91,6 +93,8 @@ namespace lab03_nhom
         {
             Form14 f14 = new Form14();
             f14.connectString = connectString;
+            f14.manv = manv;
+            f14.hoten = hoten;
             f14.Show();
         }
 
@@ -111,6 +115,18 @@ namespace lab03_nhom
                 mssv = row.Cells[0].Value.ToString();              
                 mahp = row.Cells[2].Value.ToString();
             }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form16 f16 = new Form16();
+            f16.connectString = connectString;
+            f16.mssv = mssv;
+            f16.mahp = mahp;
+            f16.manv = manv;
+            f16.hoten = hoten;
+            f16.pass = pass;
+            f16.Show();
         }
     }
 }

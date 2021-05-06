@@ -149,8 +149,10 @@ namespace lab03_nhom
 
             int count = dataGridView2.Rows.Count - 1;
             label9.Text = count.ToString();
+            count = dataGridView1.Rows.Count - 1;
+            label11.Text = count.ToString();
 
-            
+
         }
 
         private void button5_Click(object sender, EventArgs e)

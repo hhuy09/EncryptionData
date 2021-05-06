@@ -16,6 +16,7 @@ namespace lab03_nhom
     {
         string connectString;
         SqlConnection con;
+        int num;
         public Form1()
         {
             InitializeComponent();
@@ -26,6 +27,7 @@ namespace lab03_nhom
             connectString = "Data Source=NDHHUY;Initial Catalog=QLSVNhom;Integrated Security=True";
             con = new SqlConnection(connectString);
             con.Open();
+
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -38,6 +40,7 @@ namespace lab03_nhom
         {
             string username = textBox1.Text;
             string password = textBox2.Text;
+
             try
             {
                 string sqlexeclogin = "EXEC SP_LOGIN_NHANVIEN N'" + username + "', '" + password + "'";
@@ -58,9 +61,9 @@ namespace lab03_nhom
                 string[] arrStr0 = errorStr.Split(':');
                 string[] arrStr = arrStr0[1].Split('\n');
                 MessageBox.Show(arrStr[0].ToString());
-                
+
             }
             textBox2.Text = null;
-        }
+    }
     }
 }

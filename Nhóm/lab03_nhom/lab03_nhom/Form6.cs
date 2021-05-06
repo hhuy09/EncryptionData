@@ -106,6 +106,9 @@ namespace lab03_nhom
             dataGridView1.Columns["HOTEN"].Width = 150;
 
             mssv = dataGridView1.Rows[0].Cells[0].Value.ToString();
+
+            int count = dataGridView1.Rows.Count - 1;
+            label5.Text = count.ToString();
         }
 
         private void button3_Click(object sender, EventArgs e)

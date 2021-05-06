@@ -32,7 +32,7 @@ namespace lab03_nhom
 
             label1.Text = hoten;
             label2.Text = manv;
-            label3.Text = malop;
+            label4.Text = malop;
 
             SqlCommand cmd = new SqlCommand("SP_SEL1_LOP", con);
             cmd.CommandType = CommandType.StoredProcedure;

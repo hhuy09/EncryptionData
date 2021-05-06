@@ -123,7 +123,7 @@ namespace lab03_nhom
                 string errorStr = error.ToString();
                 string[] arrStr0 = errorStr.Split(':');
                 string[] arrStr = arrStr0[1].Split('\n');
-                MessageBox.Show(arrStr[0].ToString());
+                MessageBox.Show(arrStr[0].ToString() +"\nCập nhật điểm thi thành công.");
             }
             textBox1.Text = "0.0";
         }
